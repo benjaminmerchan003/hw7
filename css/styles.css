@@ -1,0 +1,195 @@
+/* Color palette
+   #543D59 - dark purple (header, footer)
+   #a299af - light purple (work experience)
+   #ffffff - white (education)
+   #DEDEE3 - light gray (header text)
+   #f5f83f - yellow (links)
+   #080808 - black (text)
+   (3, 3, 2) - black (hover links)
+*/
+
+html, body {
+	
+	margin: 0;
+}
+
+h1, h2, h3 {
+	color: #000000;
+}
+body {
+	font-family: "IBM Plex Serif", serif;
+	font-size: 110%;
+	
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: auto;
+	
+	color: #080808;
+	line-height: 1.8;
+}
+h1 {
+	 font-family: "Grenze", serif;
+  font-size: 3.2em;
+	margin-bottom: .4em;
+	color: #000000;
+	margin-top: 0;
+}
+h2 {
+	font-family: "Grenze", serif;
+  	font-size: 1.6em;
+	margin-bottom: .2em;
+	color: #000000;
+}
+h3 {
+	font-size: 1.2em;
+}
+p {
+	margin-bottom: 1em;
+}
+a {
+	color: #f5f83f;
+}
+a:hover {
+	color: rgb(3, 3, 2);
+}
+
+pre.wrong {
+	border-left-color: red;
+}
+pre.correct {
+	border-left-color: green;
+}
+dt {
+	font-style: italic;
+	font-size:1.2em;
+}
+dd {
+	margin-bottom: 1.4em;
+}
+
+
+
+.center {
+	text-align: center;
+}
+header h2 {
+	padding-bottom: .2em;
+	border-bottom: 1px solid #F3F900;
+	margin-top: 0;
+}
+
+
+footer {
+	border-top: 1px solid #000000;
+	font-size: .8em;
+	line-height: 4em;
+	margin: auto;
+	background: #543D59;
+	color: #DEDEE3;
+	border-top: 3px solid #0c0c0b;
+	text-align: center;
+	
+}
+
+.flowRight {
+	float: right;
+	margin-left: 10px;
+	
+}
+.flowLeft {
+	float: left;
+	margin-right: 10px;
+}
+
+
+
+hr {
+
+	border: none;
+	border-top: 1px solid #080807;
+	margin-bottom: .4em;
+
+}
+
+header{
+
+	
+	background: #543D59;
+	color: #DEDEE3;
+	
+	border-bottom: 3px solid #0c0c0b;
+	border-top: 3px solid #0c0c0b;
+}
+
+
+
+
+footer p{
+	margin: 0;
+}
+.education{
+	background-image: url(../images/csun\ banner\ 2.jpg);  /* learned from https://www.w3schools.com/css/css3_backgrounds.asp */
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: right;
+	background-color: #ffff;
+	color: #030303;   
+	
+	border-bottom: 3px solid #0c0c0b;
+	border-top: 3px solid #0c0c0b;
+	position: relative;
+}
+
+.education p{
+	font-weight: bold;
+}
+
+.logo-link {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 60%;
+	height: 100%;
+}
+
+/* https://docs.joomla.org/Creating_clickable_background_images_using_CSS adds a transparent overlay to the background csun banner to make it clickable */
+
+.workback{
+	
+	background-color: #a299af;
+}
+
+.bignamehead{
+	font-size: 5vw;
+	text-align: center;
+
+}
+
+.specialhead2{
+	color: azure;
+}
+
+.content-wrap{
+	max-width: 950px;
+	margin: 0 auto;
+	padding: 50px;
+	overflow: hidden;
+
+}
+
+
+.contact-info a {
+	padding: 10px;
+	display: inline-block;
+}
+
+.profile-img {
+	width: 300px;
+	border-radius: 50%;
+	float: left;
+	margin-right: 30px;
+}
+
+header h1, header h2 {
+	margin: 0;
+}
