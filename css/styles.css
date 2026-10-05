@@ -11,6 +11,19 @@
 html, body {
 	
 	margin: 0;
+	
+}
+
+
+
+html{
+
+	box-sizing: border-box;
+
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
 }
 
 h1, h2, h3 {
@@ -39,6 +52,7 @@ h2 {
   	font-size: 1.6em;
 	margin-bottom: .2em;
 	color: #000000;
+	margin-top: 0;
 }
 h3 {
 	font-size: 1.2em;
@@ -80,9 +94,9 @@ header h2 {
 
 
 footer {
-	border-top: 1px solid #000000;
+
 	font-size: .8em;
-	line-height: 4em;
+	line-height: 1em;
 	margin: auto;
 	background: #543D59;
 	color: #DEDEE3;
@@ -103,13 +117,15 @@ footer {
 
 
 
-hr {
 
+hr {
 	border: none;
 	border-top: 1px solid #080807;
 	margin-bottom: .4em;
-
+	clear: both;
 }
+
+
 
 header{
 
@@ -184,12 +200,26 @@ footer p{
 }
 
 .profile-img {
-	width: 300px;
 	border-radius: 50%;
-	float: left;
-	margin-right: 30px;
+	height: auto;
 }
 
 header h1, header h2 {
 	margin: 0;
+}
+
+.column-narrow{
+
+width: 30%;
+float: left;
+min-height: 175px;
+padding-right: 3%;
+
+
+}
+
+.column-wide{
+	width: 70%;
+	float: left;
+	min-height: 225px;
 }
